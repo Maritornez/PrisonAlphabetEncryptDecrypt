@@ -88,7 +88,7 @@ namespace InfoSecLab2
 
                 //Сохранение битового массива в бинарном виде в файл
                 SaveFileDialog saveOutputFileDialog = new();
-                saveOutputFileDialog.FileName = "Encrypted";
+                saveOutputFileDialog.FileName = "Encrypted.txt";
                 saveOutputFileDialog.Filter = "File|*|All files (*.*)|*.*";
                 if (saveOutputFileDialog.ShowDialog() == true)
                 {
